@@ -24,9 +24,6 @@ function analyzeText(textToAnalyze) {
   analyzedText["medianWordLength"] = medianWordLength;
   analyzedText["medianWord"] = medianWord;
   analyzedText["mostCommonWords"] = getMostCommonWords(tokenizedText);
-  // getMostCommonWords(tokenizedText);
-  // console.log("wowoowoow");
-  // console.log("slced", analyzedText["mostCommonWords"]);
   return analyzedText;
 }
 
